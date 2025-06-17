@@ -7,10 +7,10 @@ package e2utils
 
 import (
 	"context"
+	e2smkpmv2 "github.com/LABORA-INF-UFG/GUARA-e2-sm/servicemodels/legacy/e2sm_kpm_v2_go/pdubuilder"
+	rcpdubuilder "github.com/LABORA-INF-UFG/GUARA-e2-sm/servicemodels/legacy/e2sm_rc_pre_go/pdubuilder"
 	e2api "github.com/onosproject/onos-api/go/onos/e2t/e2/v1beta1"
 	"github.com/onosproject/onos-api/go/onos/topo"
-	e2smkpmv2 "github.com/onosproject/onos-e2-sm/servicemodels/e2sm_kpm_v2_go/pdubuilder"
-	rcpdubuilder "github.com/onosproject/onos-e2-sm/servicemodels/e2sm_rc_pre_go/pdubuilder"
 	"google.golang.org/protobuf/proto"
 	"testing"
 	"time"
@@ -18,8 +18,8 @@ import (
 	sdkclient "github.com/onosproject/onos-ric-sdk-go/pkg/e2/v1beta1"
 	"github.com/stretchr/testify/assert"
 
-	kpmv2types "github.com/onosproject/onos-e2-sm/servicemodels/e2sm_kpm_v2_go/v2/e2sm-kpm-v2-go"
-	"github.com/onosproject/onos-e2t/test/utils"
+	kpmv2types "github.com/LABORA-INF-UFG/GUARA-e2-sm/servicemodels/legacy/e2sm_kpm_v2_go/v2/e2sm-kpm-v2-go"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/test/utils"
 )
 
 const (

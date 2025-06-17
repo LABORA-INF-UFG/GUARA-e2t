@@ -5,8 +5,8 @@
 package e2
 
 import (
+	"github.com/LABORA-INF-UFG/GUARA-e2t/test/utils"
 	"github.com/onosproject/onos-api/go/onos/topo"
-	"github.com/onosproject/onos-e2t/test/utils"
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"time"

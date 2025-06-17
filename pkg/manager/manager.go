@@ -5,26 +5,26 @@
 package manager
 
 import (
+	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/controller/configuration"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/controller/controlrelation"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/controller/e2t"
+	nbstream "github.com/LABORA-INF-UFG/GUARA-e2t/pkg/northbound/e2/stream"
+	e2v1beta1service "github.com/LABORA-INF-UFG/GUARA-e2t/pkg/northbound/e2/v1beta1"
+	sbstream "github.com/LABORA-INF-UFG/GUARA-e2t/pkg/southbound/e2ap/stream"
+	chanstore "github.com/LABORA-INF-UFG/GUARA-e2t/pkg/store/channel"
+	substore "github.com/LABORA-INF-UFG/GUARA-e2t/pkg/store/subscription"
 	"github.com/atomix/go-sdk/pkg/client"
-	"github.com/onosproject/onos-e2t/pkg/controller/configuration"
-	"github.com/onosproject/onos-e2t/pkg/controller/controlrelation"
-	"github.com/onosproject/onos-e2t/pkg/controller/e2t"
-	nbstream "github.com/onosproject/onos-e2t/pkg/northbound/e2/stream"
-	e2v1beta1service "github.com/onosproject/onos-e2t/pkg/northbound/e2/v1beta1"
-	sbstream "github.com/onosproject/onos-e2t/pkg/southbound/e2ap/stream"
-	chanstore "github.com/onosproject/onos-e2t/pkg/store/channel"
-	substore "github.com/onosproject/onos-e2t/pkg/store/subscription"
 
-	"github.com/onosproject/onos-e2t/pkg/store/rnib"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/store/rnib"
 
-	"github.com/onosproject/onos-e2t/pkg/oid"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/oid"
 
-	e2server "github.com/onosproject/onos-e2t/pkg/southbound/e2ap/server"
+	e2server "github.com/LABORA-INF-UFG/GUARA-e2t/pkg/southbound/e2ap/server"
 
-	"github.com/onosproject/onos-e2t/pkg/controller/mastership"
-	subctrlv1beta1 "github.com/onosproject/onos-e2t/pkg/controller/v1beta1/channel"
-	taskctrlv1beta1 "github.com/onosproject/onos-e2t/pkg/controller/v1beta1/subscription"
-	"github.com/onosproject/onos-e2t/pkg/modelregistry"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/controller/mastership"
+	subctrlv1beta1 "github.com/LABORA-INF-UFG/GUARA-e2t/pkg/controller/v1beta1/channel"
+	taskctrlv1beta1 "github.com/LABORA-INF-UFG/GUARA-e2t/pkg/controller/v1beta1/subscription"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/modelregistry"
 	"github.com/onosproject/onos-lib-go/pkg/certs"
 	"github.com/onosproject/onos-lib-go/pkg/logging"
 	"github.com/onosproject/onos-lib-go/pkg/northbound"

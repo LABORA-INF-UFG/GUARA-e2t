@@ -5,9 +5,9 @@
 package f1apiesv1
 
 import (
-	f1apcommondatatypesv1 "github.com/onosproject/onos-e2t/api/f1ap/v1/f1ap_commondatatypes"
+	f1apcommondatatypesv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/f1ap/v1/f1ap_commondatatypes"
 
-	"github.com/onosproject/onos-lib-go/api/asn1/v1/asn1"
+	asn1 "github.com/LABORA-INF-UFG/GUARA-aper/api/asn1/v1/bitstring"
 )
 
 func (m *AccessPointPosition) SetIEExtensions(iEExtensions []*AccessPointPositionExtIes) *AccessPointPosition {

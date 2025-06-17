@@ -8,9 +8,9 @@ package e2
 import (
 	"time"
 
-	"github.com/onosproject/onos-e2t/test/e2utils"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/test/e2utils"
 
-	"github.com/onosproject/onos-e2t/test/utils"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/test/utils"
 )
 
 // TestTransactionTimeout tests that channels and subscriptions are removed if their subscription timeout period expires

@@ -5,7 +5,7 @@
 package types
 
 import (
-	"github.com/onosproject/onos-lib-go/api/asn1/v1/asn1"
+	asn1 "github.com/LABORA-INF-UFG/GUARA-aper/api/asn1/v1/bitstring"
 )
 
 type TnlInformation struct {

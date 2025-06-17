@@ -10,9 +10,9 @@ import (
 
 	topoapi "github.com/onosproject/onos-api/go/onos/topo"
 
+	"github.com/LABORA-INF-UFG/GUARA-e2t/test/utils"
 	modelapi "github.com/onosproject/onos-api/go/onos/ransim/model"
 	ransimtypes "github.com/onosproject/onos-api/go/onos/ransim/types"
-	"github.com/onosproject/onos-e2t/test/utils"
 )
 
 const (

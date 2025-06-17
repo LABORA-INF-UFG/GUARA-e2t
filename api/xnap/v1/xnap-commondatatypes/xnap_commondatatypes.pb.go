@@ -16,8 +16,8 @@
 package xnapcommondatatypesv1
 
 import (
+	_ "github.com/LABORA-INF-UFG/GUARA-aper/api/asn1/v1/bitstring"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
-	_ "github.com/onosproject/onos-lib-go/api/asn1/v1/asn1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	_ "google.golang.org/protobuf/types/known/emptypb"

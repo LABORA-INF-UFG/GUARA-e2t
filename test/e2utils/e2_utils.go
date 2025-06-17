@@ -15,7 +15,7 @@ import (
 	e2api "github.com/onosproject/onos-api/go/onos/e2t/e2/v1beta1"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/onosproject/onos-e2t/test/utils"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/test/utils"
 )
 
 const (

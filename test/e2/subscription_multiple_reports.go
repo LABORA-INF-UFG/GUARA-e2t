@@ -7,13 +7,13 @@ package e2
 
 import (
 	"context"
-	e2smkpmv2 "github.com/onosproject/onos-e2-sm/servicemodels/e2sm_kpm_v2_go/v2/e2sm-kpm-v2-go"
-	"github.com/onosproject/onos-e2t/test/e2utils"
+	e2smkpmv2 "github.com/LABORA-INF-UFG/GUARA-e2-sm/servicemodels/legacy/e2sm_kpm_v2_go/v2/e2sm-kpm-v2-go"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/test/e2utils"
 	"google.golang.org/protobuf/proto"
 
 	e2api "github.com/onosproject/onos-api/go/onos/e2t/e2/v1beta1"
 
-	"github.com/onosproject/onos-e2t/test/utils"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/test/utils"
 )
 
 // TestSubscriptionMultipleReports tests e2 subscription with multiple reports in one subscription

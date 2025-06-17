@@ -6,10 +6,10 @@ package f1utils
 
 import (
 	"fmt"
+	f1apiesv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/f1ap/v1/f1ap_ies"
+	f1appducontentsv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/f1ap/v1/f1ap_pdu_contents"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/utils/decode"
 	"github.com/onosproject/onos-api/go/onos/topo"
-	f1apiesv1 "github.com/onosproject/onos-e2t/api/f1ap/v1/f1ap_ies"
-	f1appducontentsv1 "github.com/onosproject/onos-e2t/api/f1ap/v1/f1ap_pdu_contents"
-	"github.com/onosproject/onos-e2t/pkg/utils/decode"
 	"github.com/onosproject/onos-lib-go/pkg/logging"
 )
 

@@ -5,7 +5,7 @@
 package xnappducontentsv1
 
 import (
-	xnapiesv1 "github.com/onosproject/onos-e2t/api/xnap/v1/xnap-ies"
+	xnapiesv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/xnap/v1/xnap-ies"
 )
 
 func (m *UecontextInfoHorequest) SetIndexToRatFrequencySelectionPriority(indexToRatFrequencySelectionPriority *xnapiesv1.RfspIndex) *UecontextInfoHorequest {

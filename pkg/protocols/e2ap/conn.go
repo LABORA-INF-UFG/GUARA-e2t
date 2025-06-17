@@ -11,9 +11,9 @@ import (
 	"net"
 	"sync"
 
-	"github.com/onosproject/onos-e2t/pkg/southbound/e2ap/encoder"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/southbound/e2ap/encoder"
 
-	e2appdudescriptions "github.com/onosproject/onos-e2t/api/e2ap/v2/e2ap-pdu-descriptions"
+	e2appdudescriptions "github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2/e2ap-pdu-descriptions"
 	"github.com/onosproject/onos-lib-go/pkg/logging"
 )
 

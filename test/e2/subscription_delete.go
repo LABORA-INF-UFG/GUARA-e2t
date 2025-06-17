@@ -9,10 +9,10 @@ import (
 	"context"
 	"time"
 
+	"github.com/LABORA-INF-UFG/GUARA-e2t/test/e2utils"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/test/utils"
 	e2api "github.com/onosproject/onos-api/go/onos/e2t/e2/v1beta1"
 	"github.com/onosproject/onos-api/go/onos/topo"
-	"github.com/onosproject/onos-e2t/test/e2utils"
-	"github.com/onosproject/onos-e2t/test/utils"
 )
 
 const (

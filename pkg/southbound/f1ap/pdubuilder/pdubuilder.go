@@ -5,19 +5,19 @@
 package pdubuilder
 
 import (
-	f1appdudescriptionsv1 "github.com/onosproject/onos-e2t/api/f1ap/v1/f1ap_pdu_descriptions"
+	f1appdudescriptionsv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/f1ap/v1/f1ap_pdu_descriptions"
 
-	f1appducontentsv1 "github.com/onosproject/onos-e2t/api/f1ap/v1/f1ap_pdu_contents"
+	f1appducontentsv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/f1ap/v1/f1ap_pdu_contents"
 
-	f1apiesv1 "github.com/onosproject/onos-e2t/api/f1ap/v1/f1ap_ies"
+	f1apiesv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/f1ap/v1/f1ap_ies"
 
-	"github.com/onosproject/onos-lib-go/api/asn1/v1/asn1"
+	asn1 "github.com/LABORA-INF-UFG/GUARA-aper/api/asn1/v1/bitstring"
 
-	f1apcontainersv1 "github.com/onosproject/onos-e2t/api/f1ap/v1/f1ap_containers"
+	f1apcontainersv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/f1ap/v1/f1ap_containers"
 
-	f1apconstantsv1 "github.com/onosproject/onos-e2t/api/f1ap/v1/f1ap_constants"
+	f1apconstantsv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/f1ap/v1/f1ap_constants"
 
-	f1apcommondatatypesv1 "github.com/onosproject/onos-e2t/api/f1ap/v1/f1ap_commondatatypes"
+	f1apcommondatatypesv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/f1ap/v1/f1ap_commondatatypes"
 )
 
 func CreateF1ApPDuExtIes() (*f1appdudescriptionsv1.F1ApPDuExtIes, error) {

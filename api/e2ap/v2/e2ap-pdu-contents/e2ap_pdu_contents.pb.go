@@ -16,11 +16,11 @@
 package e2ap_pdu_contents
 
 import (
+	e2ap_commondatatypes "github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2/e2ap-commondatatypes"
+	_ "github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2/e2ap-constants"
+	_ "github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2/e2ap-containers"
+	e2ap_ies "github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2/e2ap-ies"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
-	e2ap_commondatatypes "github.com/onosproject/onos-e2t/api/e2ap/v2/e2ap-commondatatypes"
-	_ "github.com/onosproject/onos-e2t/api/e2ap/v2/e2ap-constants"
-	_ "github.com/onosproject/onos-e2t/api/e2ap/v2/e2ap-containers"
-	e2ap_ies "github.com/onosproject/onos-e2t/api/e2ap/v2/e2ap-ies"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

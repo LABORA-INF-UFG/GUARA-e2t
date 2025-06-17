@@ -8,27 +8,27 @@ import (
 	"context"
 	"time"
 
-	v2 "github.com/onosproject/onos-e2t/api/e2ap/v2"
-	"github.com/onosproject/onos-e2t/pkg/controller/utils"
-	"github.com/onosproject/onos-e2t/pkg/southbound/e2ap/stream"
+	v2 "github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/controller/utils"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/southbound/e2ap/stream"
 
-	"github.com/onosproject/onos-e2t/pkg/store/rnib"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/store/rnib"
 
 	topoapi "github.com/onosproject/onos-api/go/onos/topo"
 
-	"github.com/onosproject/onos-e2t/pkg/oid"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/oid"
 
-	e2appducontents "github.com/onosproject/onos-e2t/api/e2ap/v2/e2ap-pdu-contents"
+	e2appducontents "github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2/e2ap-pdu-contents"
 
-	"github.com/onosproject/onos-e2t/pkg/modelregistry"
-	"github.com/onosproject/onos-e2t/pkg/southbound/e2ap/pdubuilder"
-	e2server "github.com/onosproject/onos-e2t/pkg/southbound/e2ap/server"
-	"github.com/onosproject/onos-e2t/pkg/southbound/e2ap/types"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/modelregistry"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/southbound/e2ap/pdubuilder"
+	e2server "github.com/LABORA-INF-UFG/GUARA-e2t/pkg/southbound/e2ap/server"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/southbound/e2ap/types"
 
+	e2apies "github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2/e2ap-ies"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/config"
+	substore "github.com/LABORA-INF-UFG/GUARA-e2t/pkg/store/subscription"
 	e2api "github.com/onosproject/onos-api/go/onos/e2t/e2/v1beta1"
-	e2apies "github.com/onosproject/onos-e2t/api/e2ap/v2/e2ap-ies"
-	"github.com/onosproject/onos-e2t/pkg/config"
-	substore "github.com/onosproject/onos-e2t/pkg/store/subscription"
 	"github.com/onosproject/onos-lib-go/pkg/controller"
 	"github.com/onosproject/onos-lib-go/pkg/errors"
 	"github.com/onosproject/onos-lib-go/pkg/logging"

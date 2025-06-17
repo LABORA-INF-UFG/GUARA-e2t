@@ -6,9 +6,9 @@ package encoder
 
 import (
 	"encoding/hex"
-	"github.com/onosproject/onos-e2t/api/e2ap/v2/choiceOptions"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2/choiceOptions"
 
-	e2appdudescriptions "github.com/onosproject/onos-e2t/api/e2ap/v2/e2ap-pdu-descriptions"
+	e2appdudescriptions "github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2/e2ap-pdu-descriptions"
 	"github.com/onosproject/onos-lib-go/pkg/asn1/aper"
 	"github.com/onosproject/onos-lib-go/pkg/logging"
 )

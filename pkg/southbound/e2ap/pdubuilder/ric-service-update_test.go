@@ -5,10 +5,10 @@ package pdubuilder
 
 import (
 	"encoding/hex"
-	"github.com/onosproject/onos-e2t/pkg/southbound/e2ap/encoder"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/southbound/e2ap/encoder"
 	"testing"
 
-	"github.com/onosproject/onos-e2t/pkg/southbound/e2ap/types"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/southbound/e2ap/types"
 	"gotest.tools/assert"
 )
 

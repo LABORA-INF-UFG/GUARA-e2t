@@ -6,13 +6,13 @@ package pdudecoder
 
 import (
 	"fmt"
-	e2ap_ies "github.com/onosproject/onos-e2t/api/e2ap/v2/e2ap-ies"
+	e2ap_ies "github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2/e2ap-ies"
 
-	"github.com/onosproject/onos-e2t/api/e2ap/v2"
-	e2ap_commondatatypes "github.com/onosproject/onos-e2t/api/e2ap/v2/e2ap-commondatatypes"
-	e2apies "github.com/onosproject/onos-e2t/api/e2ap/v2/e2ap-ies"
-	e2appdudescriptions "github.com/onosproject/onos-e2t/api/e2ap/v2/e2ap-pdu-descriptions"
-	"github.com/onosproject/onos-e2t/pkg/southbound/e2ap/types"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2"
+	e2ap_commondatatypes "github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2/e2ap-commondatatypes"
+	e2apies "github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2/e2ap-ies"
+	e2appdudescriptions "github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2/e2ap-pdu-descriptions"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/southbound/e2ap/types"
 )
 
 func DecodeRicSubscriptionFailurePdu(e2apPdu *e2appdudescriptions.E2ApPdu) (

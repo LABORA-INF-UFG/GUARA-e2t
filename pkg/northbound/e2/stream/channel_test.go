@@ -6,11 +6,11 @@ package stream
 
 import (
 	"context"
+	v2 "github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2"
+	e2appducontents "github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2/e2ap-pdu-contents"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/southbound/e2ap/stream"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/southbound/e2ap/types"
 	e2api "github.com/onosproject/onos-api/go/onos/e2t/e2/v1beta1"
-	v2 "github.com/onosproject/onos-e2t/api/e2ap/v2"
-	e2appducontents "github.com/onosproject/onos-e2t/api/e2ap/v2/e2ap-pdu-contents"
-	"github.com/onosproject/onos-e2t/pkg/southbound/e2ap/stream"
-	"github.com/onosproject/onos-e2t/pkg/southbound/e2ap/types"
 	"github.com/onosproject/onos-lib-go/pkg/errors"
 	"github.com/stretchr/testify/assert"
 	"testing"

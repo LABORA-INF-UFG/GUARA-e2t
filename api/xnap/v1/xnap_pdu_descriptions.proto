@@ -11,7 +11,7 @@ SPDX-License-Identifier: Apache-2.0
 syntax = "proto3";
 
 package xnap.v1;
-option go_package = "github.com/onosproject/onos-e2t/api/xnap/v1/xnap-pdu-descriptions;xnappdudescriptionsv1";
+option go_package = "github.com/LABORA-INF-UFG/GUARA-e2t/api/xnap/v1/xnap-pdu-descriptions;xnappdudescriptionsv1";
 
 import "xnap/v1/xnap_commondatatypes.proto";
 import "xnap/v1/xnap_pdu_contents.proto";

@@ -6,14 +6,14 @@ package unit_test
 
 import (
 	"encoding/hex"
-	v1 "github.com/onosproject/onos-e2t/api/xnap/v1"
-	xnapcommondatatypesv1 "github.com/onosproject/onos-e2t/api/xnap/v1/xnap-commondatatypes"
-	xnapiesv1 "github.com/onosproject/onos-e2t/api/xnap/v1/xnap-ies"
-	xnappducontentsv1 "github.com/onosproject/onos-e2t/api/xnap/v1/xnap-pdu-contents"
-	xnappdudescriptionsv1 "github.com/onosproject/onos-e2t/api/xnap/v1/xnap-pdu-descriptions"
-	"github.com/onosproject/onos-e2t/pkg/southbound/xnap/encoder"
-	"github.com/onosproject/onos-e2t/pkg/southbound/xnap/pdubuilder"
-	"github.com/onosproject/onos-lib-go/api/asn1/v1/asn1"
+	asn1 "github.com/LABORA-INF-UFG/GUARA-aper/api/asn1/v1/bitstring"
+	v1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/xnap/v1"
+	xnapcommondatatypesv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/xnap/v1/xnap-commondatatypes"
+	xnapiesv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/xnap/v1/xnap-ies"
+	xnappducontentsv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/xnap/v1/xnap-pdu-contents"
+	xnappdudescriptionsv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/xnap/v1/xnap-pdu-descriptions"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/southbound/xnap/encoder"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/southbound/xnap/pdubuilder"
 	"gotest.tools/assert"
 	"testing"
 )

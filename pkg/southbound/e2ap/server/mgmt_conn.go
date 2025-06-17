@@ -9,10 +9,10 @@ import (
 
 	"time"
 
+	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/southbound/e2ap/types"
 	topoapi "github.com/onosproject/onos-api/go/onos/topo"
-	"github.com/onosproject/onos-e2t/pkg/southbound/e2ap/types"
 
-	e2 "github.com/onosproject/onos-e2t/pkg/protocols/e2ap"
+	e2 "github.com/LABORA-INF-UFG/GUARA-e2t/pkg/protocols/e2ap"
 )
 
 func NewMgmtConn(nodeID topoapi.ID, plmnID string, nodeIdentity *types.E2NodeIdentity, conn e2.ServerConn,

@@ -9,8 +9,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/onosproject/onos-e2t/test/e2utils"
-	"github.com/onosproject/onos-e2t/test/utils"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/test/e2utils"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/test/utils"
 )
 
 // TestSubscriptionCancel : tests cancelling the context for a subscription then subscribing again

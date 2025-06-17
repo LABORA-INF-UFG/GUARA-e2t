@@ -4,12 +4,12 @@
 package pdubuilder
 
 import (
-	"github.com/onosproject/onos-e2t/api/e2ap/v2"
-	e2ap_commondatatypes "github.com/onosproject/onos-e2t/api/e2ap/v2/e2ap-commondatatypes"
-	e2apies "github.com/onosproject/onos-e2t/api/e2ap/v2/e2ap-ies"
-	e2appducontents "github.com/onosproject/onos-e2t/api/e2ap/v2/e2ap-pdu-contents"
-	e2appdudescriptions "github.com/onosproject/onos-e2t/api/e2ap/v2/e2ap-pdu-descriptions"
-	"github.com/onosproject/onos-e2t/pkg/southbound/e2ap/types"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2"
+	e2ap_commondatatypes "github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2/e2ap-commondatatypes"
+	e2apies "github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2/e2ap-ies"
+	e2appducontents "github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2/e2ap-pdu-contents"
+	e2appdudescriptions "github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2/e2ap-pdu-descriptions"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/southbound/e2ap/types"
 )
 
 func CreateRicSubscriptionDeleteFailureE2apPdu(ricReq *types.RicRequest, ranFuncID types.RanFunctionID,

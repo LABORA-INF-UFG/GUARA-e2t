@@ -12,19 +12,19 @@ import (
 	"io"
 	"time"
 
-	v2 "github.com/onosproject/onos-e2t/api/e2ap/v2"
-	"github.com/onosproject/onos-e2t/pkg/northbound/e2/stream"
+	v2 "github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/northbound/e2/stream"
 
-	"github.com/onosproject/onos-e2t/pkg/store/rnib"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/store/rnib"
 
+	substore "github.com/LABORA-INF-UFG/GUARA-e2t/pkg/store/subscription"
 	"github.com/gogo/protobuf/proto"
-	substore "github.com/onosproject/onos-e2t/pkg/store/subscription"
 
-	channelstore "github.com/onosproject/onos-e2t/pkg/store/channel"
+	channelstore "github.com/LABORA-INF-UFG/GUARA-e2t/pkg/store/channel"
 
-	"github.com/onosproject/onos-e2t/pkg/oid"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/oid"
 
-	"github.com/onosproject/onos-e2t/pkg/modelregistry"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/modelregistry"
 	"github.com/onosproject/onos-lib-go/pkg/errors"
 
 	e2api "github.com/onosproject/onos-api/go/onos/e2t/e2/v1beta1"

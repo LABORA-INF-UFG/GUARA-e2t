@@ -8,8 +8,8 @@ package e2
 import (
 	"context"
 	"fmt"
-	"github.com/onosproject/onos-e2t/test/e2utils"
-	"github.com/onosproject/onos-e2t/test/utils"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/test/e2utils"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/test/utils"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"time"
 )

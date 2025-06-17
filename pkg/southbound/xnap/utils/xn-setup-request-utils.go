@@ -6,9 +6,9 @@ package xnutils
 
 import (
 	"fmt"
+	xnapiesv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/xnap/v1/xnap-ies"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/utils/decode"
 	"github.com/onosproject/onos-api/go/onos/topo"
-	xnapiesv1 "github.com/onosproject/onos-e2t/api/xnap/v1/xnap-ies"
-	"github.com/onosproject/onos-e2t/pkg/utils/decode"
 	"github.com/onosproject/onos-lib-go/pkg/logging"
 )
 

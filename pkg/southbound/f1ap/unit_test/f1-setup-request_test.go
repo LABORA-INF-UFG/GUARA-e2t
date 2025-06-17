@@ -6,14 +6,14 @@ package unit_test
 
 import (
 	"encoding/hex"
-	v1 "github.com/onosproject/onos-e2t/api/f1ap/v1"
-	f1apcommondatatypesv1 "github.com/onosproject/onos-e2t/api/f1ap/v1/f1ap_commondatatypes"
-	f1apiesv1 "github.com/onosproject/onos-e2t/api/f1ap/v1/f1ap_ies"
-	f1appducontentsv1 "github.com/onosproject/onos-e2t/api/f1ap/v1/f1ap_pdu_contents"
-	f1appdudescriptionsv1 "github.com/onosproject/onos-e2t/api/f1ap/v1/f1ap_pdu_descriptions"
-	"github.com/onosproject/onos-e2t/pkg/southbound/f1ap/encoder"
-	"github.com/onosproject/onos-e2t/pkg/southbound/f1ap/pdubuilder"
-	"github.com/onosproject/onos-lib-go/api/asn1/v1/asn1"
+	asn1 "github.com/LABORA-INF-UFG/GUARA-aper/api/asn1/v1/bitstring"
+	v1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/f1ap/v1"
+	f1apcommondatatypesv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/f1ap/v1/f1ap_commondatatypes"
+	f1apiesv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/f1ap/v1/f1ap_ies"
+	f1appducontentsv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/f1ap/v1/f1ap_pdu_contents"
+	f1appdudescriptionsv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/f1ap/v1/f1ap_pdu_descriptions"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/southbound/f1ap/encoder"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/southbound/f1ap/pdubuilder"
 	"gotest.tools/assert"
 	"testing"
 )

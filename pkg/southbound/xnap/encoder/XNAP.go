@@ -6,8 +6,8 @@ package encoder
 
 import (
 	"encoding/hex"
-	"github.com/onosproject/onos-e2t/api/xnap/v1/choiceOptions"
-	xnappdudescriptionsv1 "github.com/onosproject/onos-e2t/api/xnap/v1/xnap-pdu-descriptions"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/api/xnap/v1/choiceOptions"
+	xnappdudescriptionsv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/xnap/v1/xnap-pdu-descriptions"
 
 	"github.com/onosproject/onos-lib-go/pkg/asn1/aper"
 	"github.com/onosproject/onos-lib-go/pkg/logging"

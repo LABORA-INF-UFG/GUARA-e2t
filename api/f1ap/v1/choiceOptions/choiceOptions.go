@@ -5,11 +5,11 @@
 package choiceOptions //nolint
 
 import (
-	v1 "github.com/onosproject/onos-e2t/api/f1ap/v1"
-	f1apcommondatatypesv1 "github.com/onosproject/onos-e2t/api/f1ap/v1/f1ap_commondatatypes"
-	f1apiesv1 "github.com/onosproject/onos-e2t/api/f1ap/v1/f1ap_ies"
-	f1appducontentsv1 "github.com/onosproject/onos-e2t/api/f1ap/v1/f1ap_pdu_contents"
-	f1appdudescriptionsv1 "github.com/onosproject/onos-e2t/api/f1ap/v1/f1ap_pdu_descriptions"
+	v1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/f1ap/v1"
+	f1apcommondatatypesv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/f1ap/v1/f1ap_commondatatypes"
+	f1apiesv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/f1ap/v1/f1ap_ies"
+	f1appducontentsv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/f1ap/v1/f1ap_pdu_contents"
+	f1appdudescriptionsv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/f1ap/v1/f1ap_pdu_descriptions"
 	"reflect"
 )
 

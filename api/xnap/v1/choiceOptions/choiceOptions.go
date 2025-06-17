@@ -5,11 +5,11 @@
 package choiceOptions //nolint
 
 import (
-	v1 "github.com/onosproject/onos-e2t/api/xnap/v1"
-	xnapcommondatatypesv1 "github.com/onosproject/onos-e2t/api/xnap/v1/xnap-commondatatypes"
-	xnapiesv1 "github.com/onosproject/onos-e2t/api/xnap/v1/xnap-ies"
-	xnappducontentsv1 "github.com/onosproject/onos-e2t/api/xnap/v1/xnap-pdu-contents"
-	xnappdudescriptionsv1 "github.com/onosproject/onos-e2t/api/xnap/v1/xnap-pdu-descriptions"
+	v1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/xnap/v1"
+	xnapcommondatatypesv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/xnap/v1/xnap-commondatatypes"
+	xnapiesv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/xnap/v1/xnap-ies"
+	xnappducontentsv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/xnap/v1/xnap-pdu-contents"
+	xnappdudescriptionsv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/xnap/v1/xnap-pdu-descriptions"
 	"reflect"
 )
 

@@ -8,9 +8,9 @@ import (
 	"context"
 	"sync"
 
+	e2server "github.com/LABORA-INF-UFG/GUARA-e2t/pkg/southbound/e2ap/server"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/store/rnib"
 	topoapi "github.com/onosproject/onos-api/go/onos/topo"
-	e2server "github.com/onosproject/onos-e2t/pkg/southbound/e2ap/server"
-	"github.com/onosproject/onos-e2t/pkg/store/rnib"
 	"github.com/onosproject/onos-lib-go/pkg/controller"
 )
 

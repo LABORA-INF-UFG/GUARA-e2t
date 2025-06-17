@@ -5,9 +5,9 @@
 package xnapiesv1
 
 import (
-	xnapcommondatatypesv1 "github.com/onosproject/onos-e2t/api/xnap/v1/xnap-commondatatypes"
+	xnapcommondatatypesv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/xnap/v1/xnap-commondatatypes"
 
-	"github.com/onosproject/onos-lib-go/api/asn1/v1/asn1"
+	asn1 "github.com/LABORA-INF-UFG/GUARA-aper/api/asn1/v1/bitstring"
 )
 
 func (m *AlternativeQoSparaSetItem) SetGuaranteedFlowBitRateDl(guaranteedFlowBitRateDl *BitRate) *AlternativeQoSparaSetItem {

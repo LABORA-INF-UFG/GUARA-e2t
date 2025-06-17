@@ -16,10 +16,10 @@
 package e2ap_ies
 
 import (
+	asn1 "github.com/LABORA-INF-UFG/GUARA-aper/api/asn1/v1/bitstring"
+	e2ap_commondatatypes "github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2/e2ap-commondatatypes"
+	_ "github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2/e2ap-constants"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
-	e2ap_commondatatypes "github.com/onosproject/onos-e2t/api/e2ap/v2/e2ap-commondatatypes"
-	_ "github.com/onosproject/onos-e2t/api/e2ap/v2/e2ap-constants"
-	asn1 "github.com/onosproject/onos-lib-go/api/asn1/v1/asn1"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"

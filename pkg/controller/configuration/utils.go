@@ -6,18 +6,18 @@ package configuration
 
 import (
 	"encoding/binary"
-	e2ap_commondatatypes "github.com/onosproject/onos-e2t/api/e2ap/v2/e2ap-commondatatypes"
+	e2ap_commondatatypes "github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2/e2ap-commondatatypes"
 	"net"
 
+	e2server "github.com/LABORA-INF-UFG/GUARA-e2t/pkg/southbound/e2ap/server"
 	topoapi "github.com/onosproject/onos-api/go/onos/topo"
-	e2server "github.com/onosproject/onos-e2t/pkg/southbound/e2ap/server"
 
-	"github.com/onosproject/onos-e2t/api/e2ap/v2"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2"
 
-	e2apcommondatatypes "github.com/onosproject/onos-e2t/api/e2ap/v2/e2ap-commondatatypes"
-	e2apies "github.com/onosproject/onos-e2t/api/e2ap/v2/e2ap-ies"
-	e2appducontents "github.com/onosproject/onos-e2t/api/e2ap/v2/e2ap-pdu-contents"
-	"github.com/onosproject/onos-lib-go/api/asn1/v1/asn1"
+	asn1 "github.com/LABORA-INF-UFG/GUARA-aper/api/asn1/v1/bitstring"
+	e2apcommondatatypes "github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2/e2ap-commondatatypes"
+	e2apies "github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2/e2ap-ies"
+	e2appducontents "github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2/e2ap-pdu-contents"
 )
 
 func getConnToRemoveList(_ *e2server.ManagementConn, _ []*topoapi.Interface) []topoapi.Interface {

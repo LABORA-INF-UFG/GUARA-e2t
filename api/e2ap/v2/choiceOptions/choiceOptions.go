@@ -5,10 +5,10 @@
 package choiceOptions
 
 import (
-	v2 "github.com/onosproject/onos-e2t/api/e2ap/v2"
-	e2ap_ies "github.com/onosproject/onos-e2t/api/e2ap/v2/e2ap-ies"
-	e2ap_pdu_contents "github.com/onosproject/onos-e2t/api/e2ap/v2/e2ap-pdu-contents"
-	e2ap_pdu_descriptions "github.com/onosproject/onos-e2t/api/e2ap/v2/e2ap-pdu-descriptions"
+	v2 "github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2"
+	e2ap_ies "github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2/e2ap-ies"
+	e2ap_pdu_contents "github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2/e2ap-pdu-contents"
+	e2ap_pdu_descriptions "github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2/e2ap-pdu-descriptions"
 	"reflect"
 )
 

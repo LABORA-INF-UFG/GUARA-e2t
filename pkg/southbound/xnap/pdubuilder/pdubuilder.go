@@ -5,19 +5,19 @@
 package pdubuilder
 
 import (
-	xnapiesv1 "github.com/onosproject/onos-e2t/api/xnap/v1/xnap-ies"
+	xnapiesv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/xnap/v1/xnap-ies"
 
-	"github.com/onosproject/onos-lib-go/api/asn1/v1/asn1"
+	asn1 "github.com/LABORA-INF-UFG/GUARA-aper/api/asn1/v1/bitstring"
 
-	xnapcontainersv1 "github.com/onosproject/onos-e2t/api/xnap/v1/xnap-containers"
+	xnapcontainersv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/xnap/v1/xnap-containers"
 
-	xnapconstantsv1 "github.com/onosproject/onos-e2t/api/xnap/v1/xnap-constants"
+	xnapconstantsv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/xnap/v1/xnap-constants"
 
-	xnapcommondatatypesv1 "github.com/onosproject/onos-e2t/api/xnap/v1/xnap-commondatatypes"
+	xnapcommondatatypesv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/xnap/v1/xnap-commondatatypes"
 
-	xnappdudescriptionsv1 "github.com/onosproject/onos-e2t/api/xnap/v1/xnap-pdu-descriptions"
+	xnappdudescriptionsv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/xnap/v1/xnap-pdu-descriptions"
 
-	xnappducontentsv1 "github.com/onosproject/onos-e2t/api/xnap/v1/xnap-pdu-contents"
+	xnappducontentsv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/xnap/v1/xnap-pdu-contents"
 )
 
 func CreateAdditionalPDcpDuplicationTNlList(value []*xnapiesv1.AdditionalPDcpDuplicationTNlItem) (*xnapiesv1.AdditionalPDcpDuplicationTNlList, error) {

@@ -10,7 +10,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/onosproject/onos-e2t/pkg/manager"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/manager"
 	"github.com/onosproject/onos-lib-go/pkg/logging"
 )
 

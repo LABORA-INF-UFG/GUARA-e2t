@@ -10,10 +10,10 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	e2smrcpreies "github.com/onosproject/onos-e2-sm/servicemodels/e2sm_rc_pre_go/v2/e2sm-rc-pre-v2-go"
+	e2smrcpreies "github.com/LABORA-INF-UFG/GUARA-e2-sm/servicemodels/legacy/e2sm_rc_pre_go/v2/e2sm-rc-pre-v2-go"
 
-	"github.com/onosproject/onos-e2t/test/e2utils"
-	"github.com/onosproject/onos-e2t/test/utils"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/test/e2utils"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/test/utils"
 )
 
 const (

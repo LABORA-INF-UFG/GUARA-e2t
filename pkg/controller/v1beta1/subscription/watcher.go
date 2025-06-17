@@ -8,14 +8,14 @@ import (
 	"context"
 	"sync"
 
-	"github.com/onosproject/onos-e2t/pkg/southbound/e2ap/stream"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/southbound/e2ap/stream"
 
+	e2server "github.com/LABORA-INF-UFG/GUARA-e2t/pkg/southbound/e2ap/server"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/store/rnib"
 	e2api "github.com/onosproject/onos-api/go/onos/e2t/e2/v1beta1"
 	topoapi "github.com/onosproject/onos-api/go/onos/topo"
-	e2server "github.com/onosproject/onos-e2t/pkg/southbound/e2ap/server"
-	"github.com/onosproject/onos-e2t/pkg/store/rnib"
 
-	substore "github.com/onosproject/onos-e2t/pkg/store/subscription"
+	substore "github.com/LABORA-INF-UFG/GUARA-e2t/pkg/store/subscription"
 	"github.com/onosproject/onos-lib-go/pkg/controller"
 )
 

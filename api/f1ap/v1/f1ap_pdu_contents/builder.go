@@ -5,7 +5,7 @@
 package f1appducontentsv1
 
 import (
-	f1apiesv1 "github.com/onosproject/onos-e2t/api/f1ap/v1/f1ap_ies"
+	f1apiesv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/f1ap/v1/f1ap_ies"
 )
 
 func (m *SemipersistentSrs) SetSRsspatialRelation(sRsspatialRelation *f1apiesv1.SpatialRelationInfo) *SemipersistentSrs {

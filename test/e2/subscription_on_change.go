@@ -12,17 +12,17 @@ import (
 
 	topoapi "github.com/onosproject/onos-api/go/onos/topo"
 
-	"github.com/onosproject/onos-e2t/test/e2utils"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/test/e2utils"
 
+	e2smrcpreies "github.com/LABORA-INF-UFG/GUARA-e2-sm/servicemodels/legacy/e2sm_rc_pre_go/v2/e2sm-rc-pre-v2-go"
 	e2api "github.com/onosproject/onos-api/go/onos/e2t/e2/v1beta1"
-	e2smrcpreies "github.com/onosproject/onos-e2-sm/servicemodels/e2sm_rc_pre_go/v2/e2sm-rc-pre-v2-go"
 	"google.golang.org/protobuf/proto"
 
 	ransimtypes "github.com/onosproject/onos-api/go/onos/ransim/types"
 
 	modelapi "github.com/onosproject/onos-api/go/onos/ransim/model"
 
-	"github.com/onosproject/onos-e2t/test/utils"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/test/utils"
 )
 
 // TestSubscriptionOnChange tests E2 subscription on change using ransim, SDK

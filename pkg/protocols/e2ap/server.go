@@ -5,8 +5,8 @@
 package e2ap
 
 import (
-	"github.com/onosproject/onos-e2t/pkg/protocols/e2ap/procedures"
-	"github.com/onosproject/onos-e2t/pkg/protocols/sctp"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/protocols/e2ap/procedures"
+	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/protocols/sctp"
 	"net"
 )
 

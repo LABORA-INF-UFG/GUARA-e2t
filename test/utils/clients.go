@@ -14,28 +14,27 @@ import (
 	"testing"
 	"time"
 
-	subapi "github.com/onosproject/onos-api/go/onos/e2t/e2/v1beta1"
 	sdkclient "github.com/onosproject/onos-ric-sdk-go/pkg/e2/v1beta1"
 
 	"github.com/stretchr/testify/assert"
 )
 
 // GetSubAdminClient returns an SDK subscription client
-func GetSubAdminClient(t *testing.T) subapi.SubscriptionAdminServiceClient {
+func GetSubAdminClient(t *testing.T) e2api.SubscriptionAdminServiceClient {
 	conn, err := ConnectE2tServiceHost()
 	assert.NoError(t, err)
 	assert.NotNil(t, conn)
 
-	return subapi.NewSubscriptionAdminServiceClient(conn)
+	return e2api.NewSubscriptionAdminServiceClient(conn)
 }
 
 // GetSubClientForIP returns an SDK subscription client
-func GetSubClientForIP(t *testing.T, IP string, port uint32) subapi.SubscriptionServiceClient {
+func GetSubClientForIP(t *testing.T, IP string, port uint32) e2api.SubscriptionServiceClient {
 	conn, err := ConnectE2t(IP, port)
 	assert.NoError(t, err)
 	assert.NotNil(t, conn)
 
-	return subapi.NewSubscriptionServiceClient(conn)
+	return e2api.NewSubscriptionServiceClient(conn)
 }
 
 // GetE2Client gets an E2 client

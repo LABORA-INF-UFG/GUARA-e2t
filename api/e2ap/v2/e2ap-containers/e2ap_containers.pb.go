@@ -16,9 +16,9 @@
 package e2ap_containers
 
 import (
+	e2ap_commondatatypes "github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2/e2ap-commondatatypes"
+	e2ap_constants "github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2/e2ap-constants"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
-	e2ap_commondatatypes "github.com/onosproject/onos-e2t/api/e2ap/v2/e2ap-commondatatypes"
-	e2ap_constants "github.com/onosproject/onos-e2t/api/e2ap/v2/e2ap-constants"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 	reflect "reflect"
