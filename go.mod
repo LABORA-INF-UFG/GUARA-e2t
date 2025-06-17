@@ -1,6 +1,6 @@
 module github.com/LABORA-INF-UFG/GUARA-e2t
 
-go 1.24.4
+go 1.24.3
 
 require (
 	github.com/LABORA-INF-UFG/GUARA-utils v0.0.0-20250617185607-a1d8445efdae
