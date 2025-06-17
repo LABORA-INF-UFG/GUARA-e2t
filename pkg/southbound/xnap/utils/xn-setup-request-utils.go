@@ -8,8 +8,8 @@ import (
 	"fmt"
 	xnapiesv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/xnap/v1/xnap-ies"
 	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/utils/decode"
+	"github.com/LABORA-INF-UFG/GUARA-utils/pkg/logging"
 	"github.com/onosproject/onos-api/go/onos/topo"
-	"github.com/onosproject/onos-lib-go/pkg/logging"
 )
 
 var log = logging.GetLogger()

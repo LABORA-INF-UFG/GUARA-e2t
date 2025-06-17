@@ -5,7 +5,7 @@
 package decode
 
 import (
-	asn1 "github.com/LABORA-INF-UFG/GUARA-aper/api/asn1/v1/bitstring"
+	asn1 "github.com/LABORA-INF-UFG/GUARA-utils/api/asn1/v1/bitstring"
 	"math"
 )
 

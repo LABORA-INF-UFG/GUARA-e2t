@@ -6,7 +6,6 @@ package unit_test
 
 import (
 	"encoding/hex"
-	asn1 "github.com/LABORA-INF-UFG/GUARA-aper/api/asn1/v1/bitstring"
 	v1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/f1ap/v1"
 	f1apcommondatatypesv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/f1ap/v1/f1ap_commondatatypes"
 	f1apiesv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/f1ap/v1/f1ap_ies"
@@ -14,6 +13,7 @@ import (
 	f1appdudescriptionsv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/f1ap/v1/f1ap_pdu_descriptions"
 	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/southbound/f1ap/encoder"
 	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/southbound/f1ap/pdubuilder"
+	asn1 "github.com/LABORA-INF-UFG/GUARA-utils/api/asn1/v1/bitstring"
 	"gotest.tools/assert"
 	"testing"
 )

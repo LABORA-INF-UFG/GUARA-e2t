@@ -16,7 +16,7 @@
 package f1apcommondatatypesv1
 
 import (
-	_ "github.com/LABORA-INF-UFG/GUARA-aper/api/asn1/v1/bitstring"
+	_ "github.com/LABORA-INF-UFG/GUARA-utils/api/asn1/v1/bitstring"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"

@@ -8,13 +8,13 @@ import (
 	"context"
 	"io"
 
-	"github.com/onosproject/onos-lib-go/pkg/grpc/retry"
+	"github.com/LABORA-INF-UFG/GUARA-utils/pkg/grpc/retry"
 	"google.golang.org/grpc/codes"
 
-	"github.com/onosproject/onos-lib-go/pkg/errors"
+	"github.com/LABORA-INF-UFG/GUARA-utils/pkg/errors"
 
+	"github.com/LABORA-INF-UFG/GUARA-utils/pkg/logging"
 	topoapi "github.com/onosproject/onos-api/go/onos/topo"
-	"github.com/onosproject/onos-lib-go/pkg/logging"
 	"google.golang.org/grpc"
 )
 

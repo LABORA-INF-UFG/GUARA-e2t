@@ -14,7 +14,7 @@ import (
 	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/southbound/e2ap/encoder"
 
 	e2appdudescriptions "github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2/e2ap-pdu-descriptions"
-	"github.com/onosproject/onos-lib-go/pkg/logging"
+	"github.com/LABORA-INF-UFG/GUARA-utils/pkg/logging"
 )
 
 const defaultRecvBufSize = 1024 * 4

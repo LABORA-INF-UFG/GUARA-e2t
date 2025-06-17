@@ -7,11 +7,11 @@ package sctp
 import (
 	"net"
 
-	"github.com/onosproject/onos-lib-go/pkg/sctp/addressing"
+	"github.com/LABORA-INF-UFG/GUARA-utils/pkg/sctp/addressing"
 
-	"github.com/onosproject/onos-lib-go/pkg/logging"
-	"github.com/onosproject/onos-lib-go/pkg/sctp/listener"
-	"github.com/onosproject/onos-lib-go/pkg/sctp/types"
+	"github.com/LABORA-INF-UFG/GUARA-utils/pkg/logging"
+	"github.com/LABORA-INF-UFG/GUARA-utils/pkg/sctp/listener"
+	"github.com/LABORA-INF-UFG/GUARA-utils/pkg/sctp/types"
 )
 
 var log = logging.GetLogger()

@@ -7,7 +7,7 @@ package f1apiesv1
 import (
 	f1apcommondatatypesv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/f1ap/v1/f1ap_commondatatypes"
 
-	asn1 "github.com/LABORA-INF-UFG/GUARA-aper/api/asn1/v1/bitstring"
+	asn1 "github.com/LABORA-INF-UFG/GUARA-utils/api/asn1/v1/bitstring"
 )
 
 func (m *AccessPointPosition) SetIEExtensions(iEExtensions []*AccessPointPositionExtIes) *AccessPointPosition {

@@ -5,10 +5,10 @@
 package pdudecoder
 
 import (
-	asn1 "github.com/LABORA-INF-UFG/GUARA-aper/api/asn1/v1/bitstring"
 	e2apies "github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2/e2ap-ies"
 	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/southbound/e2ap/pdubuilder"
 	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/southbound/e2ap/types"
+	asn1 "github.com/LABORA-INF-UFG/GUARA-utils/api/asn1/v1/bitstring"
 	"gotest.tools/assert"
 	"testing"
 )

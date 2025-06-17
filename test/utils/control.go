@@ -5,8 +5,8 @@
 package utils
 
 import (
-	asn1 "github.com/LABORA-INF-UFG/GUARA-aper/api/asn1/v1/bitstring"
 	"github.com/LABORA-INF-UFG/GUARA-e2-sm/servicemodels/legacy/e2sm_rc_pre_go/pdubuilder"
+	asn1 "github.com/LABORA-INF-UFG/GUARA-utils/api/asn1/v1/bitstring"
 	e2api "github.com/onosproject/onos-api/go/onos/e2t/e2/v1beta1"
 	"google.golang.org/protobuf/proto"
 )

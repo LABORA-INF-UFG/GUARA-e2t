@@ -25,9 +25,9 @@ import (
 	subctrlv1beta1 "github.com/LABORA-INF-UFG/GUARA-e2t/pkg/controller/v1beta1/channel"
 	taskctrlv1beta1 "github.com/LABORA-INF-UFG/GUARA-e2t/pkg/controller/v1beta1/subscription"
 	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/modelregistry"
-	"github.com/onosproject/onos-lib-go/pkg/certs"
-	"github.com/onosproject/onos-lib-go/pkg/logging"
-	"github.com/onosproject/onos-lib-go/pkg/northbound"
+	"github.com/LABORA-INF-UFG/GUARA-utils/pkg/certs"
+	"github.com/LABORA-INF-UFG/GUARA-utils/pkg/logging"
+	"github.com/LABORA-INF-UFG/GUARA-utils/pkg/northbound"
 )
 
 var log = logging.GetLogger()

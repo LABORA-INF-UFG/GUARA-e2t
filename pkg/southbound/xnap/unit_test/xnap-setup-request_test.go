@@ -6,7 +6,6 @@ package unit_test
 
 import (
 	"encoding/hex"
-	asn1 "github.com/LABORA-INF-UFG/GUARA-aper/api/asn1/v1/bitstring"
 	v1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/xnap/v1"
 	xnapcommondatatypesv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/xnap/v1/xnap-commondatatypes"
 	xnapiesv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/xnap/v1/xnap-ies"
@@ -14,6 +13,7 @@ import (
 	xnappdudescriptionsv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/xnap/v1/xnap-pdu-descriptions"
 	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/southbound/xnap/encoder"
 	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/southbound/xnap/pdubuilder"
+	asn1 "github.com/LABORA-INF-UFG/GUARA-utils/api/asn1/v1/bitstring"
 	"gotest.tools/assert"
 	"testing"
 )

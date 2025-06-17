@@ -9,8 +9,8 @@ import (
 	"github.com/LABORA-INF-UFG/GUARA-e2t/api/f1ap/v1/choiceOptions"
 	f1appdudescriptionsv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/f1ap/v1/f1ap_pdu_descriptions"
 
-	"github.com/onosproject/onos-lib-go/pkg/asn1/aper"
-	"github.com/onosproject/onos-lib-go/pkg/logging"
+	"github.com/LABORA-INF-UFG/GUARA-utils/pkg/asn1/aper"
+	"github.com/LABORA-INF-UFG/GUARA-utils/pkg/logging"
 )
 
 var log = logging.GetLogger()

@@ -16,11 +16,11 @@
 package f1appducontentsv1
 
 import (
-	_ "github.com/LABORA-INF-UFG/GUARA-aper/api/asn1/v1/bitstring"
 	f1ap_commondatatypes "github.com/LABORA-INF-UFG/GUARA-e2t/api/f1ap/v1/f1ap_commondatatypes"
 	_ "github.com/LABORA-INF-UFG/GUARA-e2t/api/f1ap/v1/f1ap_constants"
 	_ "github.com/LABORA-INF-UFG/GUARA-e2t/api/f1ap/v1/f1ap_containers"
 	f1ap_ies "github.com/LABORA-INF-UFG/GUARA-e2t/api/f1ap/v1/f1ap_ies"
+	_ "github.com/LABORA-INF-UFG/GUARA-utils/api/asn1/v1/bitstring"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"

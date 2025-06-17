@@ -10,8 +10,8 @@ import (
 
 	e2server "github.com/LABORA-INF-UFG/GUARA-e2t/pkg/southbound/e2ap/server"
 	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/store/rnib"
+	"github.com/LABORA-INF-UFG/GUARA-utils/pkg/controller"
 	topoapi "github.com/onosproject/onos-api/go/onos/topo"
-	"github.com/onosproject/onos-lib-go/pkg/controller"
 )
 
 const queueSize = 100

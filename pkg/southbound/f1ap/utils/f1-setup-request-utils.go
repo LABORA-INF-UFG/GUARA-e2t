@@ -9,8 +9,8 @@ import (
 	f1apiesv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/f1ap/v1/f1ap_ies"
 	f1appducontentsv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/f1ap/v1/f1ap_pdu_contents"
 	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/utils/decode"
+	"github.com/LABORA-INF-UFG/GUARA-utils/pkg/logging"
 	"github.com/onosproject/onos-api/go/onos/topo"
-	"github.com/onosproject/onos-lib-go/pkg/logging"
 )
 
 var log = logging.GetLogger()

@@ -16,10 +16,10 @@
 package xnapiesv1
 
 import (
-	asn1 "github.com/LABORA-INF-UFG/GUARA-aper/api/asn1/v1/bitstring"
 	xnap_commondatatypes "github.com/LABORA-INF-UFG/GUARA-e2t/api/xnap/v1/xnap-commondatatypes"
 	_ "github.com/LABORA-INF-UFG/GUARA-e2t/api/xnap/v1/xnap-constants"
 	_ "github.com/LABORA-INF-UFG/GUARA-e2t/api/xnap/v1/xnap-containers"
+	asn1 "github.com/LABORA-INF-UFG/GUARA-utils/api/asn1/v1/bitstring"
 	_ "github.com/envoyproxy/protoc-gen-validate/validate"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"

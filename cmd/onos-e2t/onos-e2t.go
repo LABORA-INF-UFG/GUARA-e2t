@@ -11,7 +11,7 @@ import (
 	"syscall"
 
 	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/manager"
-	"github.com/onosproject/onos-lib-go/pkg/logging"
+	"github.com/LABORA-INF-UFG/GUARA-utils/pkg/logging"
 )
 
 type arrayFlags []string

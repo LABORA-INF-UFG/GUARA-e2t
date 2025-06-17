@@ -13,7 +13,7 @@ import (
 	topoapi "github.com/onosproject/onos-api/go/onos/topo"
 
 	e2server "github.com/LABORA-INF-UFG/GUARA-e2t/pkg/southbound/e2ap/server"
-	"github.com/onosproject/onos-lib-go/pkg/controller"
+	"github.com/LABORA-INF-UFG/GUARA-utils/pkg/controller"
 )
 
 const queueSize = 100

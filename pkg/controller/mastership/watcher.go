@@ -11,7 +11,7 @@ import (
 	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/store/rnib"
 	topoapi "github.com/onosproject/onos-api/go/onos/topo"
 
-	"github.com/onosproject/onos-lib-go/pkg/controller"
+	"github.com/LABORA-INF-UFG/GUARA-utils/pkg/controller"
 )
 
 const queueSize = 100

@@ -10,10 +10,10 @@ import (
 	"plugin"
 	"sync"
 
-	"github.com/onosproject/onos-lib-go/pkg/errors"
+	"github.com/LABORA-INF-UFG/GUARA-utils/pkg/errors"
 
+	"github.com/LABORA-INF-UFG/GUARA-utils/pkg/logging"
 	types "github.com/onosproject/onos-api/go/onos/e2t/e2sm"
-	"github.com/onosproject/onos-lib-go/pkg/logging"
 )
 
 var log = logging.GetLogger()

@@ -5,9 +5,9 @@
 package utils
 
 import (
+	"github.com/LABORA-INF-UFG/GUARA-utils/pkg/env"
+	"github.com/LABORA-INF-UFG/GUARA-utils/pkg/uri"
 	topoapi "github.com/onosproject/onos-api/go/onos/topo"
-	"github.com/onosproject/onos-lib-go/pkg/env"
-	"github.com/onosproject/onos-lib-go/pkg/uri"
 )
 
 // GetE2TID gets E2T URI

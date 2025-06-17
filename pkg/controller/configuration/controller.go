@@ -15,12 +15,12 @@ import (
 
 	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/controller/utils"
 
-	"github.com/onosproject/onos-lib-go/pkg/errors"
+	"github.com/LABORA-INF-UFG/GUARA-utils/pkg/errors"
 
 	e2server "github.com/LABORA-INF-UFG/GUARA-e2t/pkg/southbound/e2ap/server"
 	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/store/rnib"
-	"github.com/onosproject/onos-lib-go/pkg/controller"
-	"github.com/onosproject/onos-lib-go/pkg/logging"
+	"github.com/LABORA-INF-UFG/GUARA-utils/pkg/controller"
+	"github.com/LABORA-INF-UFG/GUARA-utils/pkg/logging"
 )
 
 var log = logging.GetLogger()

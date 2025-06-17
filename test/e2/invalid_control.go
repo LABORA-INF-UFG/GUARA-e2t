@@ -11,8 +11,8 @@ import (
 	sdkclient "github.com/onosproject/onos-ric-sdk-go/pkg/e2/v1beta1"
 
 	"github.com/LABORA-INF-UFG/GUARA-e2t/test/utils"
+	"github.com/LABORA-INF-UFG/GUARA-utils/pkg/errors"
 	ransimtypes "github.com/onosproject/onos-api/go/onos/ransim/types"
-	"github.com/onosproject/onos-lib-go/pkg/errors"
 )
 
 type invalidControlTestCase struct {

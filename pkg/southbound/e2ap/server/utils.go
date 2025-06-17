@@ -12,8 +12,8 @@ import (
 
 	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/southbound/e2ap/pdudecoder"
 	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/southbound/e2ap/types"
+	"github.com/LABORA-INF-UFG/GUARA-utils/pkg/uri"
 	topoapi "github.com/onosproject/onos-api/go/onos/topo"
-	"github.com/onosproject/onos-lib-go/pkg/uri"
 )
 
 func GetNodeID(nodeID []byte, length int) topoapi.ID {

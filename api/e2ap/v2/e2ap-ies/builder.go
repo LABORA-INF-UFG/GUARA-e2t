@@ -5,8 +5,8 @@
 package e2ap_ies
 
 import (
-	asn1 "github.com/LABORA-INF-UFG/GUARA-aper/api/asn1/v1/bitstring"
 	e2ap_commondatatypes "github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2/e2ap-commondatatypes"
+	asn1 "github.com/LABORA-INF-UFG/GUARA-utils/api/asn1/v1/bitstring"
 )
 
 func (m *E2NodeComponentConfigurationAck) SetFailureCause(c *Cause) *E2NodeComponentConfigurationAck {

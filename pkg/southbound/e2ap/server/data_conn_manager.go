@@ -8,7 +8,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/onosproject/onos-lib-go/pkg/errors"
+	"github.com/LABORA-INF-UFG/GUARA-utils/pkg/errors"
 )
 
 type E2APConnManager interface {

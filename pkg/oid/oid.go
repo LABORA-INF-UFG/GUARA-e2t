@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/onosproject/onos-lib-go/pkg/errors"
+	"github.com/LABORA-INF-UFG/GUARA-utils/pkg/errors"
 
-	"github.com/onosproject/onos-lib-go/pkg/logging"
+	"github.com/LABORA-INF-UFG/GUARA-utils/pkg/logging"
 )
 
 var log = logging.GetLogger()

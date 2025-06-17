@@ -7,7 +7,7 @@ package procedures
 import (
 	"context"
 
-	"github.com/onosproject/onos-lib-go/pkg/errors"
+	"github.com/LABORA-INF-UFG/GUARA-utils/pkg/errors"
 
 	e2api "github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2"
 

@@ -3,13 +3,12 @@ module github.com/LABORA-INF-UFG/GUARA-e2t/test
 go 1.24.4
 
 require (
-	github.com/LABORA-INF-UFG/GUARA-aper v0.0.0-20250616143424-4cc4537bba4b
 	github.com/LABORA-INF-UFG/GUARA-e2-sm/servicemodels/legacy/e2sm_kpm_v2_go v0.0.0-20250617144242-dc03bead7c70
 	github.com/LABORA-INF-UFG/GUARA-e2-sm/servicemodels/legacy/e2sm_rc_pre_go v0.0.0-20250617144242-dc03bead7c70
+	github.com/LABORA-INF-UFG/GUARA-utils v0.0.0-20250617185607-a1d8445efdae
 	github.com/dustinkirkland/golang-petname v0.0.0-20240428194347-eebcea082ee0
 	github.com/onosproject/helmit v1.1.5
 	github.com/onosproject/onos-api/go v0.10.34
-	github.com/onosproject/onos-lib-go v0.10.28
 	github.com/onosproject/onos-ric-sdk-go v0.8.14
 	github.com/onosproject/onos-test v0.6.6
 	github.com/stretchr/testify v1.10.0
@@ -24,6 +23,7 @@ require (
 	dario.cat/mergo v1.0.2 // indirect
 	github.com/Azure/go-ansiterm v0.0.0-20250102033503-faa5f7b0171c // indirect
 	github.com/BurntSushi/toml v1.5.0 // indirect
+	github.com/LABORA-INF-UFG/GUARA-aper v0.0.0-20250616143424-4cc4537bba4b // indirect
 	github.com/MakeNowJust/heredoc v1.0.0 // indirect
 	github.com/Masterminds/goutils v1.1.1 // indirect
 	github.com/Masterminds/semver/v3 v3.3.1 // indirect
@@ -109,6 +109,7 @@ require (
 	github.com/monochromegane/go-gitignore v0.0.0-20200626010858-205db1a8cc00 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
 	github.com/mxk/go-flowrate v0.0.0-20140419014527-cca7078d478f // indirect
+	github.com/onosproject/onos-lib-go v0.10.28 // indirect
 	github.com/onosproject/onos-proxy v0.1.5 // indirect
 	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/opencontainers/image-spec v1.1.1 // indirect

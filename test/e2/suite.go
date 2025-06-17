@@ -6,10 +6,10 @@ package e2
 
 import (
 	"fmt"
+	"github.com/LABORA-INF-UFG/GUARA-utils/pkg/logging"
 	petname "github.com/dustinkirkland/golang-petname"
 	"github.com/onosproject/helmit/pkg/helm"
 	"github.com/onosproject/helmit/pkg/test"
-	"github.com/onosproject/onos-lib-go/pkg/logging"
 	testutils "github.com/onosproject/onos-ric-sdk-go/pkg/utils"
 	"github.com/onosproject/onos-test/pkg/onostest"
 	v1 "k8s.io/api/core/v1"

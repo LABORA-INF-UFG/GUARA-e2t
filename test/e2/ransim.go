@@ -7,9 +7,9 @@ package e2
 import (
 	"context"
 	"github.com/LABORA-INF-UFG/GUARA-e2t/test/utils"
+	"github.com/LABORA-INF-UFG/GUARA-utils/pkg/grpc/retry"
 	modelapi "github.com/onosproject/onos-api/go/onos/ransim/model"
 	ransimtypes "github.com/onosproject/onos-api/go/onos/ransim/types"
-	"github.com/onosproject/onos-lib-go/pkg/grpc/retry"
 	"github.com/onosproject/onos-ric-sdk-go/pkg/e2/creds"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"

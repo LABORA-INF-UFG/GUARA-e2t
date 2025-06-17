@@ -11,7 +11,7 @@ import (
 
 	f1apiesv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/f1ap/v1/f1ap_ies"
 
-	asn1 "github.com/LABORA-INF-UFG/GUARA-aper/api/asn1/v1/bitstring"
+	asn1 "github.com/LABORA-INF-UFG/GUARA-utils/api/asn1/v1/bitstring"
 
 	f1apcontainersv1 "github.com/LABORA-INF-UFG/GUARA-e2t/api/f1ap/v1/f1ap_containers"
 

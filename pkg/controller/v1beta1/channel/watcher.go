@@ -13,8 +13,8 @@ import (
 
 	chanstore "github.com/LABORA-INF-UFG/GUARA-e2t/pkg/store/channel"
 	substore "github.com/LABORA-INF-UFG/GUARA-e2t/pkg/store/subscription"
+	"github.com/LABORA-INF-UFG/GUARA-utils/pkg/controller"
 	e2api "github.com/onosproject/onos-api/go/onos/e2t/e2/v1beta1"
-	"github.com/onosproject/onos-lib-go/pkg/controller"
 )
 
 const queueSize = 100

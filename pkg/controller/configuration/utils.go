@@ -14,10 +14,10 @@ import (
 
 	"github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2"
 
-	asn1 "github.com/LABORA-INF-UFG/GUARA-aper/api/asn1/v1/bitstring"
 	e2apcommondatatypes "github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2/e2ap-commondatatypes"
 	e2apies "github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2/e2ap-ies"
 	e2appducontents "github.com/LABORA-INF-UFG/GUARA-e2t/api/e2ap/v2/e2ap-pdu-contents"
+	asn1 "github.com/LABORA-INF-UFG/GUARA-utils/api/asn1/v1/bitstring"
 )
 
 func getConnToRemoveList(_ *e2server.ManagementConn, _ []*topoapi.Interface) []topoapi.Interface {

@@ -8,15 +8,15 @@ import (
 	"context"
 	"time"
 
-	"github.com/onosproject/onos-lib-go/pkg/env"
+	"github.com/LABORA-INF-UFG/GUARA-utils/pkg/env"
 
 	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/controller/utils"
 	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/store/rnib"
+	"github.com/LABORA-INF-UFG/GUARA-utils/pkg/controller"
+	"github.com/LABORA-INF-UFG/GUARA-utils/pkg/errors"
+	"github.com/LABORA-INF-UFG/GUARA-utils/pkg/logging"
 	gogotypes "github.com/gogo/protobuf/types"
 	topoapi "github.com/onosproject/onos-api/go/onos/topo"
-	"github.com/onosproject/onos-lib-go/pkg/controller"
-	"github.com/onosproject/onos-lib-go/pkg/errors"
-	"github.com/onosproject/onos-lib-go/pkg/logging"
 )
 
 const (

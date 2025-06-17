@@ -13,10 +13,10 @@ import (
 	"github.com/atomix/go-sdk/pkg/types"
 	"github.com/google/uuid"
 
+	"github.com/LABORA-INF-UFG/GUARA-utils/pkg/errors"
+	"github.com/LABORA-INF-UFG/GUARA-utils/pkg/logging"
 	"github.com/atomix/go-sdk/pkg/primitive"
 	api "github.com/onosproject/onos-api/go/onos/e2t/e2/v1beta1"
-	"github.com/onosproject/onos-lib-go/pkg/errors"
-	"github.com/onosproject/onos-lib-go/pkg/logging"
 
 	_map "github.com/atomix/go-sdk/pkg/primitive/map"
 )
