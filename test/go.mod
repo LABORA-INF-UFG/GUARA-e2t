@@ -1,6 +1,6 @@
 module github.com/LABORA-INF-UFG/GUARA-e2t/test
 
-go 1.24.4
+go 1.24.3
 
 require (
 	github.com/LABORA-INF-UFG/GUARA-e2-sm/servicemodels/legacy/e2sm_kpm_v2_go v0.0.0-20250617190528-242e214a6929
