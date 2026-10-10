@@ -22,27 +22,8 @@ type ClientHandler func(conn ClientConn) ClientInterface
 // ClientInterface is an interface for E2 client procedures
 type ClientInterface procedures.E2NodeProcedures
 
-// ConnectOptions are options for Connect
-type ConnectOptions struct {
-	localIP net.IP
-}
-
-// ConnectOption is a Connect option
-type ConnectOption func(*ConnectOptions)
-
-// WithLocalIP sets the local IP. Defaults to the source IP of the route.
-func WithLocalIP(ip net.IP) ConnectOption {
-	return func(options *ConnectOptions) {
-		options.localIP = ip
-	}
-}
-
 // Connect connects to the given address using a single local IP
-func Connect(_ context.Context, address string, handler ClientHandler, opts ...ConnectOption) (ClientConn, error) {
-	options := &ConnectOptions{}
-	for _, opt := range opts {
-		opt(options)
-	}
+func Connect(_ context.Context, address string, handler ClientHandler) (ClientConn, error) {
 	addr, err := addressing.ResolveAddress(types.Sctp4, address)
 	if err != nil {
 		return nil, err
@@ -53,14 +34,10 @@ func Connect(_ context.Context, address string, handler ClientHandler, opts ...C
 		sctp.WithMode(types.OneToOne),
 		sctp.WithInitMsg(types.InitMsg{}),
 	}
-	localIP := options.localIP
-	if localIP == nil {
-		localIP, err = sourceIPFor(addr.IPAddrs[0].IP)
-		if err != nil {
-			log.Warnf("Could not determine source IP for %s, SCTP association will be multi-homed: %v", address, err)
-		}
-	}
-	if localIP != nil {
+	localIP, err := sourceIPFor(addr.IPAddrs[0].IP)
+	if err != nil {
+		log.Warnf("Could not determine source IP for %s, SCTP association will be multi-homed: %v", address, err)
+	} else {
 		dialOpts = append(dialOpts, sctp.WithLocalAddress(localIP))
 	}
 	c, err := sctp.DialSCTP(addr, dialOpts...)
