@@ -1,9 +1,9 @@
 module github.com/LABORA-INF-UFG/GUARA-e2t
 
-go 1.24.3
+go 1.24.4
 
 require (
-	github.com/LABORA-INF-UFG/GUARA-utils v0.0.0-20250617185607-a1d8445efdae
+	github.com/LABORA-INF-UFG/GUARA-utils v0.1.3-0.20261010043602-4db261b99c15
 	github.com/atomix/go-sdk v0.13.2
 	github.com/envoyproxy/protoc-gen-validate v1.0.4
 	github.com/gogo/protobuf v1.3.2
