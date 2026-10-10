@@ -5,6 +5,7 @@
 package manager
 
 import (
+	"context"
 	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/controller/configuration"
 	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/controller/controlrelation"
 	"github.com/LABORA-INF-UFG/GUARA-e2t/pkg/controller/e2t"
@@ -153,35 +154,35 @@ func (m *Manager) Start() error {
 
 func (m *Manager) startControlRelationController(rnib rnib.Store, e2apConn e2server.E2APConnManager) error {
 	ctrlRelationController := controlrelation.NewController(rnib, e2apConn)
-	return ctrlRelationController.Start()
+	return ctrlRelationController.Start(context.Background())
 }
 
 func (m *Manager) startConfigurationController(rnib rnib.Store, mgmtConns e2server.MgmtConnManager, e2apConn e2server.E2APConnManager) error {
 	connController := configuration.NewController(rnib, mgmtConns, e2apConn)
-	return connController.Start()
+	return connController.Start(context.Background())
 }
 
 func (m *Manager) startE2TController(rnib rnib.Store) error {
 	e2tController := e2t.NewController(rnib)
-	return e2tController.Start()
+	return e2tController.Start(context.Background())
 }
 
 // startTopov1alpha1Controller starts the topo controller
 func (m *Manager) startMastershipController(topo rnib.Store) error {
 	mastershipController := mastership.NewController(topo)
-	return mastershipController.Start()
+	return mastershipController.Start(context.Background())
 }
 
 // startChannelv1beta1Controller starts the subscription controllers
 func (m *Manager) startChannelv1beta1Controller(chans chanstore.Store, subs substore.Store, streams nbstream.Manager, topo rnib.Store) error {
 	subsv1beta1 := subctrlv1beta1.NewController(chans, subs, streams, topo)
-	return subsv1beta1.Start()
+	return subsv1beta1.Start(context.Background())
 }
 
 // startSubscriptionv1beta1Controller starts the subscription controllers
 func (m *Manager) startSubscriptionv1beta1Controller(subs substore.Store, streams sbstream.Manager, topo rnib.Store, e2apConns e2server.E2APConnManager) error {
 	tasksv1beta1 := taskctrlv1beta1.NewController(streams, subs, topo, e2apConns, m.ModelRegistry, m.OidRegistry)
-	return tasksv1beta1.Start()
+	return tasksv1beta1.Start(context.Background())
 }
 
 // startSouthboundServer starts the southbound server
