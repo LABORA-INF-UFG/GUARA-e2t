@@ -5,8 +5,8 @@ cloud.google.com/go/compute v1.25.1/go.mod h1:oopOIR53ly6viBYxaDhBfJwzUAxf1zE//u
 cloud.google.com/go/compute/metadata v0.2.3 h1:mg4jlk7mCAj6xXp9UJ4fjI9VUI5rubuGBW5aJ7UnBMY=
 cloud.google.com/go/compute/metadata v0.2.3/go.mod h1:VAV5nSsACxMJvgaAuX6Pk2AawlZn8kiOGuCv6gTkwuA=
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
-github.com/LABORA-INF-UFG/GUARA-utils v0.1.3-0.20261010043602-4db261b99c15 h1:OO8WU9NuuaFlhznlXinAIgFxhJe87ylLjpumQyAs2m0=
-github.com/LABORA-INF-UFG/GUARA-utils v0.1.3-0.20261010043602-4db261b99c15/go.mod h1:f5+0bQJkjqwHwPjxrRSVT/KJo7MmOC5ecutSJojmr/Q=
+github.com/LABORA-INF-UFG/GUARA-utils v0.1.3 h1:H3Odhrqe+slWkC0qQ1f4xqLdQaIq0HYYFraUFMdI1/8=
+github.com/LABORA-INF-UFG/GUARA-utils v0.1.3/go.mod h1:f5+0bQJkjqwHwPjxrRSVT/KJo7MmOC5ecutSJojmr/Q=
 github.com/Shopify/sarama v1.38.0 h1:Q81EWxDT2Xs7kCaaiDGV30GyNCWd6K1Xmd4k2qpTWE8=
 github.com/Shopify/sarama v1.38.0/go.mod h1:djdek3V4gS0N9LZ+OhfuuM6rE1bEKeDffYY8UvsRNyM=
 github.com/Shopify/toxiproxy/v2 v2.5.0 h1:i4LPT+qrSlKNtQf5QliVjdP08GyAH8+BUIc9gT0eahc=
